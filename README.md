@@ -76,12 +76,12 @@ The top 10 countries with highest happiness scores are:
 
 On the left side of the dashboard, a slicer is available to filter both the map visualization and the bar chart based on different factors. The bar chart presented below complements the slicer by displaying the scores of the selected factor across all three groups. By selecting happiness as the factor of interest the visualization reveals that the happiest countries consistently have scores that are more than twice as high as those of the least happy countries. This stark contrast emphasizes the substantial disparity in happiness levels between these two groups.
 
-![Dashboard](dashboard-images/happiness-scores.png)
+![Bar chart with the happiness scores across the three groups](dashboard-images/happiness-scores.png)
 
 
 Positioned on the bottom left side of the dashboard, a horizontal bar chart allows for a comparison of corruption levels. This visualization provides insights into the relationship between corruption and happiness across countries.
 
-![Dashboard](dashboard-images/corruption.png)
+![bar chart of the trust government score (corruption)](dashboard-images/corruption.png)
 
 Upon analysis, it becomes apparent that 50% of the happiest countries also appear in the top 10 countries with the least corruption. This observation highlights a significant correlation between higher happiness scores and lower corruption levels. Notably, countries such as Finland, Denmark, New Zealand Switzerland and Sweden, which consistently rank among the happiest, also demonstrate low corruption levels.
 
@@ -91,12 +91,12 @@ Located on the top right side of the dashboard, a slicer provides the ability to
 
 By selecting the highest freedom scores in the slicer, we obtain a filtered view that showcases the happiest countries. This selection highlights the countries where higher levels of freedom coincide with greater happiness. Notably, these countries often exhibit strong respect for civil liberties, human rights, and personal freedoms.
 
-![Freedom slicer](dashboard-images/freedom-1.png)
+![Freedom slicer](dashboard-images/freedom-1.png){height="100"}
 ![Freedom visualization of happiest countries](dashboard-images/freedom-2.png)
 
 Conversely, by filtering the slicer to the lowest freedom scores, we obtain a filtered view that emphasizes the least happy countries. This observation implies that countries with lower levels of freedom often experience decreased happiness, indicating that restricted civil liberties and limited personal freedoms can impact overall well-being.
 
-![Freedom slicer](dashboard-images/freedom-3.png)
+![Freedom slicer](dashboard-images/freedom-3.png){height="100"}
 ![Freedom visualization of least happy countries](dashboard-images/freedom-4.png)
 
 
