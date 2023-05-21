@@ -8,15 +8,13 @@ This repository contains a Power BI dashboard showcasing the happiness rankings 
 
 The repository is organized as follows:
 
-- *[Data](https://github.com/jenny-4/world-happiness/tree/main/data): This directory contains the datasets used for creating the Power BI dashboard. The data is stored in CSV (Comma-Separated Values) format and includes the happiness scores and rankings for each country in each year from 2015 to 2019.
+- [Data](https://github.com/jenny-4/world-happiness/tree/main/data): This directory contains the datasets used for creating the Power BI dashboard. The data is stored in CSV (Comma-Separated Values) format and includes the happiness scores and rankings for each country in each year from 2015 to 2019.
 
-- *[Screenshots](https://github.com/jenny-4/world-happiness/tree/main/dashboard-images): This directory includes screenshots of the Power BI dashboard. The screenshots provide a preview of the visualizations and insights available in the dashboard.
+- [Screenshots](https://github.com/jenny-4/world-happiness/tree/main/dashboard-images): This directory includes screenshots of the Power BI dashboard. The screenshots provide a preview of the visualizations and insights available in the dashboard.
 
-- *[Dashboard](https://github.com/jenny-4/world-happiness/blob/main/world-happiness.pbix): This directory holds the Power BI file (`*.pbix`) that contains the dashboard. You can download and open this file in Power BI Desktop to explore the visualizations and interact with the data.
+- [Dashboard](https://github.com/jenny-4/world-happiness/blob/main/world-happiness.pbix): This directory holds the Power BI file (`*.pbix`) that contains the dashboard. You can download and open this file in Power BI Desktop to explore the visualizations and interact with the data.
 
 ## Dashboard Features
-![alt text](https://github.com/jenny-4/world-happiness/blob/main/dashboard-images/world-happiness2.png)
-
 The Power BI dashboard offers the following features and visualizations:
 
 - **Regional Happiness**: A map visualization showcasing the happiness scores across different regions of the world. This map provides a geographical perspective on happiness levels and regional variations.
@@ -48,15 +46,21 @@ Within this project, I would like to explore the following:
 
 
 ### Analysis
-analysis/: This directory contains the scripts and notebooks used to analyze the data and generate insights. The analysis includes visualizations of the happiness trends, identification of the happiest countries, and comparisons between different years.
 
 Before delving into the analysis, it is important to note the color scheme employed in the dashboard, which categorizes the countries into three distinct groups. The 10 countries with the highest happiness scores are visually represented by a serene light blue shade. Conversely, the 10 countries with the lowest happiness scores are denoted by a red  hue. The remaining countries fall within the category represented by a deep, dark blue color. This color categorization facilitates a clear visual differentiation and enables users to easily identify and compare the happiness levels among different groups of countries throughout the dashboard.
 
 In the map visualization presented below, countries depicted in green exhibit the highest happiness scores, while those appearing in  red represent the lowest happiness scores. Consequently, this visualization distinctly highlights that countries in Europe and America predominantly demonstrate higher happiness scores, while a significant number of the least happy countries are situated in Africa. This observation underscores the regional disparities in happiness levels across different continents.
 
+![Map visualization of happines scores](dashboard-images/regional-happiness.png)
+
 In the alternative map visualization provided, we can observe the top 10 countries with the highest scores. We can observe that the majority of these countries are located in Europe. This observation draws attention to the strong presence of European nations among the top performers in terms of overall happiness. 
 
+![Top 10 happiest countries](dashboard-images/top_10.png)
+
 By analyzing the map visualization and referring to the accompanying bar chart below, we can identify the countries that consistently ranked among the top 10 happiest throughout the five-year period. It is worth noting that with the exception of Australia, all the countries in the top 10 maintained their position within the top 10 consistently.
+
+![map visualization and bar chart to compare happiness scores](dashboard-images/bar-chart-comparative-analysis.png)
+
 
 The top 10 countries with highest happiness scores are: 
 1. Denmark
@@ -72,10 +76,12 @@ The top 10 countries with highest happiness scores are:
 
 On the left side of the dashboard, a slicer is available to filter both the map visualization and the bar chart based on different factors. The bar chart presented below complements the slicer by displaying the scores of the selected factor across all three groups. By selecting happiness as the factor of interest the visualization reveals that the happiest countries consistently have scores that are more than twice as high as those of the least happy countries. This stark contrast emphasizes the substantial disparity in happiness levels between these two groups.
 
-
+![Dashboard](dashboard-images/happiness-scores.png)
 
 
 Positioned on the bottom left side of the dashboard, a horizontal bar chart allows for a comparison of corruption levels. This visualization provides insights into the relationship between corruption and happiness across countries.
+
+![Dashboard](dashboard-images/corruption.png)
 
 Upon analysis, it becomes apparent that 50% of the happiest countries also appear in the top 10 countries with the least corruption. This observation highlights a significant correlation between higher happiness scores and lower corruption levels. Notably, countries such as Finland, Denmark, New Zealand Switzerland and Sweden, which consistently rank among the happiest, also demonstrate low corruption levels.
 
@@ -85,11 +91,18 @@ Located on the top right side of the dashboard, a slicer provides the ability to
 
 By selecting the highest freedom scores in the slicer, we obtain a filtered view that showcases the happiest countries. This selection highlights the countries where higher levels of freedom coincide with greater happiness. Notably, these countries often exhibit strong respect for civil liberties, human rights, and personal freedoms.
 
+![freedom slicer](dashboard-images/freedom-1.png)
+![freedom visualization of happiest countries](dashboard-images/freedom-2.png)
+
 Conversely, by filtering the slicer to the lowest freedom scores, we obtain a filtered view that emphasizes the least happy countries. This observation implies that countries with lower levels of freedom often experience decreased happiness, indicating that restricted civil liberties and limited personal freedoms can impact overall well-being.
 
-Lastly we have the following scatter plot where we can see the relation between happiness, economy and life expectancy. It is important to note that the  bubble is determined by the economy of the country. Thus, in this plot we can see a positive relation between happiness and economy and between happiness and life expectancy
+![freedom slicer](dashboard-images/freedom-3.png)
+![freedom visualization of least happy countries](dashboard-images/freedom-3.png)
+
 
 Lastly, we present a scatter plot that visualizes the relationship between happiness, economy, and life expectancy. In this plot, the size of the bubble indicates the economy of the respective country. This visualization allows us to examine the correlations between happiness and both economy and life expectancy.
+
+![scatter plot to visualize relationship between happiness and health](dashboard-images/correlation.png)
 
 Upon analysis, we can observe a positive relationship between happiness and economy. Countries with higher economic indicators tend to have higher happiness scores, as indicated by the positioning of the bubbles. This suggests that economic prosperity plays a significant role in contributing to overall happiness levels.
 
