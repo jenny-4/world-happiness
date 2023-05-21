@@ -91,18 +91,18 @@ Located on the top right side of the dashboard, a slicer provides the ability to
 
 By selecting the highest freedom scores in the slicer, we obtain a filtered view that showcases the happiest countries. This selection highlights the countries where higher levels of freedom coincide with greater happiness. Notably, these countries often exhibit strong respect for civil liberties, human rights, and personal freedoms.
 
-![freedom slicer](dashboard-images/freedom-1.png)
-![freedom visualization of happiest countries](dashboard-images/freedom-2.png)
+![Freedom slicer](dashboard-images/freedom-1.png)
+![Freedom visualization of happiest countries](dashboard-images/freedom-2.png)
 
 Conversely, by filtering the slicer to the lowest freedom scores, we obtain a filtered view that emphasizes the least happy countries. This observation implies that countries with lower levels of freedom often experience decreased happiness, indicating that restricted civil liberties and limited personal freedoms can impact overall well-being.
 
-![freedom slicer](dashboard-images/freedom-3.png)
-![freedom visualization of least happy countries](dashboard-images/freedom-3.png)
+![Freedom slicer](dashboard-images/freedom-3.png)
+![Freedom visualization of least happy countries](dashboard-images/freedom-4.png)
 
 
 Lastly, we present a scatter plot that visualizes the relationship between happiness, economy, and life expectancy. In this plot, the size of the bubble indicates the economy of the respective country. This visualization allows us to examine the correlations between happiness and both economy and life expectancy.
 
-![scatter plot to visualize relationship between happiness and health](dashboard-images/correlation.png)
+![Scatter plot to visualize relationship between happiness and health](dashboard-images/correlation-analysis.png)
 
 Upon analysis, we can observe a positive relationship between happiness and economy. Countries with higher economic indicators tend to have higher happiness scores, as indicated by the positioning of the bubbles. This suggests that economic prosperity plays a significant role in contributing to overall happiness levels.
 
