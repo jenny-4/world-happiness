@@ -91,12 +91,12 @@ Located on the top right side of the dashboard, a slicer provides the ability to
 
 By selecting the highest freedom scores in the slicer, we obtain a filtered view that showcases the happiest countries. This selection highlights the countries where higher levels of freedom coincide with greater happiness. Notably, these countries often exhibit strong respect for civil liberties, human rights, and personal freedoms.
 
-![Freedom slicer](dashboard-images/freedom-1.png){height="50px"}
+![Freedom slicer](dashboard-images/freedom-1.png){:height="50px"}
 ![Freedom visualization of happiest countries](dashboard-images/freedom-2.png)
 
 Conversely, by filtering the slicer to the lowest freedom scores, we obtain a filtered view that emphasizes the least happy countries. This observation implies that countries with lower levels of freedom often experience decreased happiness, indicating that restricted civil liberties and limited personal freedoms can impact overall well-being.
 
-![Freedom slicer](dashboard-images/freedom-3.png){height="50px"}
+![Freedom slicer](dashboard-images/freedom-3.png){:height="50px"}
 
 ![Freedom visualization of least happy countries](dashboard-images/freedom-4.png)
 
